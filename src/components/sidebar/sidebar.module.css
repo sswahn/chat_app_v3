@@ -1,0 +1,25 @@
+
+.sidebar {
+  background: white;
+  border-right: 1px solid gray; /* remove border */
+  height: 100%;
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 260px;
+  z-index: 999;
+}
+
+.sidebar button {
+  background: green;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.sidebar button i {
+  margin-right: 10px;
+}
